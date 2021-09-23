@@ -32,7 +32,9 @@ def main():
     print(dec_sample)
     
     # Text analysis using substitution by frequency
-    print(decrypt_by_letter_frequency(text[0:200], best['counts'], PT_ETAOIN))
+    # print(decrypt_by_letter_frequency(text[0:200], best['counts'], PT_ETAOIN))
+    
+    print()
     
     output_res.append({'file':file_name,
                        'ioc':best['ioc'],
